@@ -1,0 +1,27 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  highlight_level: NONE
+  text: |-
+    age = "20"
+
+    if age < 18:
+        print("You can't watch Game of Thrones!")
+    else:
+        print("You are welcome to be here. Sit, have a drink and enjoy the show!")
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6046#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 1, in <module>
+        index = int(input())
+    EOFError: EOF when reading a line
+  time: "Thu, 03 Aug 2023 18:36:21 UTC"
+record: -1
+submission_language: python3

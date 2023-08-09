@@ -1,0 +1,26 @@
+type: matching
+captions:
+- <code>ncalls</code>
+- <code>tottime</code>
+- <code>cumtime</code>
+- <code>percall</code>
+options:
+- The cumulative time (including sub calls)
+- Total time per call | Cumulative time per call
+- The number of calls
+- Total time spent in the function (excluding sub calls)
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17434#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3
